@@ -6,6 +6,11 @@ void main() {
     appBar: AppBar(
       title: Text("Hello world"),
     ),
-    body: Center(child: Text("Flutter my demo")),
+    body: Center(
+        child: Text("Flutter my demo",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ))),
   )));
 }
